@@ -8,32 +8,32 @@ Le Pôle Technicien (4 bureaux, environ 15 équipements au total)
 
 ### Découpage symétrique:  
 
-Sous-réseau 1: Pôle informatique  2^5=32 CIDR =32-5bits=27 donc CIDRE=27  
+Sous-réseau 1: Pôle informatique  2^6=64 CIDR=32-6bits=26 donc CIDRE=26  
 Adresse de réseau: 172.16.1.0/26  
 Début de plage IP disponible:172.16.1.1  
 Fin de plage IP disponible: 172.16.1.62  
 Adresse de broadcast: 172.16.1.63  
 
-Sous-réseau 2: Pôle développement  2^5=32 CIDR =32-5bits=27 donc CIDRE=27  
+Sous-réseau 2: Pôle développement  2^6=64 CIDR=32-6bits=26 donc CIDRE=26    
 Adresse de réseau: 172.16.1.64/26  
 Début de plage IP disponible: 172.16.1.65  
 Fin de plage IP disponible: 172.16.1.126  
 Adresse de broadcast: 172.16.1.127  
 
-Sous-réseau 3: Administratif  2^5=32 CIDR =32-5bits=27 donc CIDRE=27  
+Sous-réseau 3: Administratif  2^6=64 CIDR=32-6bits=26 donc CIDRE=26   
 Adresse de réseau: 172.16.1.128/26  
 Début de plage IP disponible: 172.16.1.129  
 Fin de plage IP disponible: 172.16.1.190  
 Adresse de broadcast: 172.16.1.191  
 
-Sous-réseau 4: Pôle Technicien  2^5=32 CIDR =32-5bits=27 donc CIDRE=27  
+Sous-réseau 4: Pôle Technicien  2^6=64 CIDR=32-6bits=26 donc CIDRE=26  
 Adresse de réseau: 172.16.1.192/26  
 Début de plage IP disponible: 172.16.1.193  
 Fin de plage IP disponible: 172.16.1.254  
 Adresse de broadcast: 172.16.1.255  
 
 ### Le découpage asymétrique:  
-Sous-réseau 1: Pôle informatique 50EQ  2^6=64 CIDR =32-6bits=26 donc CIDRE=26    
+Sous-réseau 1: Pôle informatique 50EQ  2^6=64 CIDR=32-6bits=26 donc CIDRE=26    
 Adresse de réseau: 172.16.1.0/26  
 Début de plage IP disponible:172.16.1.1  
 Fin de plage IP disponible: 172.16.1.62  
